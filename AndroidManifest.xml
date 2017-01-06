@@ -9,7 +9,8 @@
 
 	<application
 		android:allowBackup="false"
-		android:label="OmniStyle" >
+		android:label="OmniStyle"
+        android:icon="@drawable/omnirom_logo" >
 		<activity
 			android:name=".nature"
 			android:label="Nature" >
