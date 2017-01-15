@@ -130,7 +130,9 @@ public class BrowseHeaderActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.content_browse);
 
-        getActionBar().setDisplayOptions(ActionBar.DISPLAY_HOME_AS_UP|ActionBar.DISPLAY_SHOW_TITLE);
+        if (getActionBar() != null) {
+            getActionBar().setDisplayOptions(ActionBar.DISPLAY_HOME_AS_UP | ActionBar.DISPLAY_SHOW_TITLE);
+        }
 
         mProgress = (ProgressBar) findViewById(R.id.browse_progress);
         mHeaderSelect = (Spinner) findViewById(R.id.package_select);
