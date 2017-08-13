@@ -101,7 +101,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
         <activity
             android:name=".aim"
-            android:label="AIM ROM" >
+            android:label="Aim" >
             <intent-filter>
                 <action android:name="org.omnirom.DaylightHeaderPack1" />
 
